@@ -43,7 +43,7 @@ npm run stars -- 1
 
 To run any solution, use the `npm run solution` script specifying the day and the puzzle.
 
-For example:
+Example:
 
 ```sh
 # Runs the solution of Day 1 - Puzzle 2

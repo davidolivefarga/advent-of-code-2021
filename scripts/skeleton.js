@@ -26,7 +26,7 @@ https.get(`https://adventofcode.com/2021/day/${dayNumber}`, (res) => {
 		const dayTitle = day.match(/<h2>--- (.*) ---<\/h2>/)[1];
 
 		fs.writeFileSync(
-			`${folderName}/puzzle2.js`,
+			`${folderName}/README.md`,
 			createReadmeSkeleton(dayNumber, dayTitle)
 		);
 	});
@@ -43,7 +43,7 @@ https.get(
 		res.on("data", (data) => {
 			const input = data.toString();
 
-			fs.writeFileSync(`${folderName}/input.txt`, data);
+			fs.writeFileSync(`${folderName}/input.txt`, input);
 		});
 	}
 );
