@@ -20,17 +20,19 @@ _Note_: both puzzles always share the same input, that's why there's only one in
 
 ## How to run
 
+To run any solution, use the `npm run solution` script specifying the day and the puzzle.
+
+For example:
+
+```sh
+# Runs the solution of Day 1 - Puzzle 2
+npm run solution -- 1 2
+```
+
 ## Solved puzzles
 
 Here's the list of all days, along with the stars obtained in each of them.
 
-| Day                                       |  Stars  |
-| :---------------------------------------- | :-----: |
-| [Day 1 - Sonar Sweep](./day1)             | ⭐️ ⭐️ |
-| [Day 2 - Dive!](./day2)                   | ⭐️ ⭐️ |
-| [Day 3 - Binary Diagnostic](./day3)       | ⭐️ ⭐️ |
-| [Day 4 - Giant Squid](./day4)             | ⭐️ ⭐️ |
-| [Day 5 - Hydrothermal Venture](./day5)    | ⭐️ ⭐️ |
-| [Day 6 - Lanternfish](./day6)             | ⭐️ ⭐️ |
-| [Day 7 - The Treachery of Whales](./day7) | ⭐️ ⭐️ |
-| [Day 8 - Seven Segment Search](./day8)    | ⭐️ ⭐️ |
+| Day                           |  Stars  |
+| :---------------------------- | :-----: |
+| [Day 1 - Sonar Sweep](./day1) | ⭐️ ⭐️ |
