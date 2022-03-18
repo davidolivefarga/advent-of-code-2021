@@ -1,3 +1,7 @@
+/**
+ * Runs solution for the specified day and puzzle
+ */
+
 const { exec } = require("child_process");
 
 const dayNumber = process.argv[2];

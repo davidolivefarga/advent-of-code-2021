@@ -1,4 +1,4 @@
-# Day 1 - Sonar Sweep
+# Day 1: Sonar Sweep
 
 You can find the puzzles [here](https://adventofcode.com/2021/day/1).
 

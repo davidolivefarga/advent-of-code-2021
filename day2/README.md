@@ -1,4 +1,4 @@
-# Day 2 - Dive!
+# Day 2: Dive!
 
 You can find the puzzles [here](https://adventofcode.com/2021/day/2).
 

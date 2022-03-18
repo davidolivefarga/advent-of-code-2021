@@ -7,7 +7,12 @@
 		"url": "git+https://github.com/davidolivefarga/advent-of-code-2021.git"
 	},
 	"scripts": {
-		"solution": "node run-solution"
+		"solution": "node scripts/solution",
+		"skeleton": "node scripts/skeleton",
+		"stars": "node scripts/stars"
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0"
 	},
 	"keywords": [
 		"aoc",

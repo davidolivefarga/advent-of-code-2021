@@ -18,6 +18,27 @@ Every day has its own folder with the following files:
 
 _Note_: both puzzles always share the same input, that's why there's only one input file.
 
+To avoid creating so many files manually, I implemented two scripts to automatize the process.
+
+On one hand, `npm run skeleton` creates the skeleton folder and files for a given day.
+This includes fetching the puzzles input from the website and copying it in the `input.txt` file.
+
+Example:
+
+```sh
+# Creates the folder and files for day 1
+npm run skeleton -- 1
+```
+
+On the other hand, `npm run stars`: adds the puzzle stars of a given day to the main README.
+
+Example:
+
+```sh
+# Adds the stars for day 1
+npm run stars -- 1
+```
+
 ## How to run
 
 To run any solution, use the `npm run solution` script specifying the day and the puzzle.
@@ -33,7 +54,7 @@ npm run solution -- 1 2
 
 Here's the list of all days, along with the stars obtained in each of them.
 
-| Day                           |  Stars  |
-| :---------------------------- | :-----: |
-| [Day 1 - Sonar Sweep](./day1) | ⭐️ ⭐️ |
-| [Day 2 - Dive!](./day2)       | ⭐️ ⭐️ |
+| Day                          |  Stars  |
+| :--------------------------- | :-----: |
+| [Day 1: Sonar Sweep](./day1) | ⭐️ ⭐️ |
+| [Day 2: Dive!](./day2)       | ⭐️ ⭐️ |
