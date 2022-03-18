@@ -1,0 +1,25 @@
+{
+	"name": "advent-of-code-2021",
+	"version": "1.0.0",
+	"description": "Solutions to Advent of Code 2021, written in Javascript",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/davidolivefarga/advent-of-code-2021.git"
+	},
+	"scripts": {
+		"solution": "node run-solution"
+	},
+	"keywords": [
+		"aoc",
+		"aoc-2021",
+		"aoc-2021-solutions",
+		"advent-of-code",
+		"advent-of-code-2021",
+		"advent-of-code-2021-solutions"
+	],
+	"engines": {
+		"node": ">=17.7.2"
+	},
+	"author": "David Olivé",
+	"license": "MIT"
+}
