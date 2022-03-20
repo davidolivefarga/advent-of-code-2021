@@ -54,7 +54,8 @@ npm run solution -- 1 2
 
 Here's the list of all days, along with the stars obtained in each of them.
 
-| Day                          |  Stars  |
-| :--------------------------- | :-----: |
-| [Day 1: Sonar Sweep](./day1) | ⭐️ ⭐️ |
-| [Day 2: Dive!](./day2)       | ⭐️ ⭐️ |
+| Day                                |  Stars  |
+| :--------------------------------- | :-----: |
+| [Day 1: Sonar Sweep](./day1)       | ⭐️ ⭐️ |
+| [Day 2: Dive!](./day2)             | ⭐️ ⭐️ |
+| [Day 3: Binary Diagnostic](./day3) | ⭐️ ⭐️ |
