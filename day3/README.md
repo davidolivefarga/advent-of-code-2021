@@ -29,7 +29,7 @@ Since we want to calculate gamma and epsilon in decimal, I went directly for the
 
 The only thing worth noticing is that to calculate the power of 2 I used the [bitwise left shift operator (<<)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Left_shift) instead of `Math.pow(2, exponent)`, because it's faster.
 
-I was also playing with the idea of parsing the input strings to decimal numbers and then use the [bitwise and operator (&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND), so that then I can do the filtering like this:
+I was also playing with the idea of parsing the input strings to decimal numbers and then use the [bitwise AND operator (&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND), so that then I can do the filtering like this:
 
 ```js
 const countWithZero = parsedInput.filter((num) => powerOf2 & num).length;
