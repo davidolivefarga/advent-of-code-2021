@@ -11,7 +11,7 @@ There are three types of instructions: `forward`, `down` and `up`.
 Example:
 
 ```js
-[
+const input = [
 	{ instruction: "forward", value: 5 },
 	{ instruction: "down", value: 5 },
 	{ instruction: "forward", value: 8 },
